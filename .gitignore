@@ -1,0 +1,98 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==============================
+# IDE and editor settings
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Raw and processed data
+# ==============================
+data/raw/
+data/interim/
+data/processed/
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.zip
+*.gz
+*.7z
+
+# ==============================
+# Machine learning artifacts
+# ==============================
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# ==============================
+# Experiment outputs
+# ==============================
+mlruns/
+wandb/
+lightning_logs/
+outputs/
+artifacts/
+
+# ==============================
+# Python test and coverage files
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# OS files
+# ==============================
+$RECYCLE.BIN/
