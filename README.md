@@ -114,50 +114,6 @@ Adding the two historical establishment features to Logistic Regression improved
 
 Logistic Regression was selected by the prespecified primary metric, Average Precision. These validation results indicate improvement over the DummyClassifier, but discrimination remains limited.
 
-### FY2026 output status
-
-A final evaluation run previously reported Average Precision 0.1789 and ROC-AUC 0.6621. However, a later individual-prediction summary produced a different confusion matrix from the one displayed in that evaluation run. The final FY2026 metrics are therefore **not reproduced as definitive results in this README** until the prediction file, threshold, and metrics file are reconciled from the same model run.
-
-## Repository structure
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│   └── README.md
-├── notebooks/
-│   └── # Add the executed project notebooks here
-├── src/
-│   └── feature_engineering.py
-├── reports/
-│   ├── figures/
-│   └── results/
-└── models/
-```
-
-Raw archives, Parquet data files, and fitted model binaries are ignored by Git. Commit notebooks, source code, documentation, and reviewed figures/tables instead. Clear any notebook outputs that expose large amounts of record-level data before committing.
-
-## Reproducing the historical features
-
-Use Python 3.10 or later.
-
-```bash
-pip install -r requirements.txt
-```
-
-Place the prepared file at `data/processed/salmonella_chicken_parts_v1.parquet`, then run:
-
-```bash
-python src/feature_engineering.py \
-  --input data/processed/salmonella_chicken_parts_v1.parquet \
-  --output data/processed/salmonella_chicken_parts_history_v1.parquet
-```
-
-The feature-engineering script does not overwrite the input file. It verifies the target and required columns, calculates prior-fiscal-year establishment aggregates, preserves the number of rows, and writes a separate Parquet output.
-
-The training and evaluation steps described above were developed in Google Colab. To reproduce them exactly, include the corresponding notebooks and record your software versions and source-data download snapshot.
 
 ## Limitations
 
@@ -171,9 +127,6 @@ The training and evaluation steps described above were developed in Google Colab
 
 ## Next steps
 
-- Reconcile the saved FY2026 predictions and metrics from the same model artifact and threshold.
-- Include the reviewed final figures and tables.
-- Add exact dependency versions and notebook execution instructions after a clean reproduction run.
 - Seek validation on a later, previously unexamined fiscal-year snapshot before making stronger generalization claims.
 
 ## Acknowledgment
