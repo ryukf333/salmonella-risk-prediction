@@ -2,7 +2,6 @@
 
 A machine-learning project using USDA Food Safety and Inspection Service (FSIS) raw poultry sampling records to predict whether a selected raw chicken-part sample has a **recorded positive Salmonella test result**.
 
-> **Project status:** Research/portfolio prototype. The models show some predictive signal, but performance is modest. The final FY2026 output files still need a consistency check before the final test metrics are treated as definitive.
 
 ## Research question
 
