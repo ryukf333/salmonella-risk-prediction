@@ -1,0 +1,2 @@
+average_precision,roc_auc,precision,recall,f1,balanced_accuracy,model,features,threshold
+0.10819955210695911,0.5472410700479357,0.10618388934092758,0.4176,0.16931560168666884,0.5389376217720736,Random Forest,Without project_code,0.5

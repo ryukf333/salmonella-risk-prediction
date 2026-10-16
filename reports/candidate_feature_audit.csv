@@ -1,0 +1,12 @@
+column,dtype,missing_count,missing_pct,unique_values
+establishment_id,int64,0,0.0,941
+establishment_number,object,0,0.0,947
+establishment_name,object,0,0.0,808
+establishment_state,object,0,0.0,46
+project_code,object,0,0.0,14
+project_name,object,0,0.0,14
+collection_date,object,0,0.0,1470
+sample_source_name,object,0,0.0,6
+product_type,object,70735,48.7,8
+salmonella_sp_analysis,object,72,0.05,2
+salmonella_sp_analysis_canceled,object,145221,99.98,8

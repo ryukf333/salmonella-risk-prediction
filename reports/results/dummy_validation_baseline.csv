@@ -1,0 +1,2 @@
+average_precision,roc_auc,precision,recall,f1,balanced_accuracy,model,threshold,training_positive_rate,validation_positive_rate
+0.08812746756909194,0.5,0.0,0.0,0.0,0.5,DummyClassifier,0.5,0.08481816250914498,0.08812746756909194

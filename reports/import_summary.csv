@@ -1,0 +1,11 @@
+fiscal_year,table_type,source_table_name,row_count,source_column_count,exact_duplicate_rows_before_provenance,saved_file
+2022,primary,primary_table_data,34613,30,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/primary/primary_FY2022.parquet
+2022,secondary,secondary_table_data,9331,141,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/secondary/secondary_FY2022.parquet
+2023,primary,primary_table_data,32035,30,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/primary/primary_FY2023.parquet
+2023,secondary,secondary_table_data,9218,141,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/secondary/secondary_FY2023.parquet
+2024,primary,primary_table_data,28941,30,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/primary/primary_FY2024.parquet
+2024,secondary,secondary_table_data,5206,141,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/secondary/secondary_FY2024.parquet
+2025,primary,primary_table_data,28564,30,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/primary/primary_FY2025.parquet
+2025,secondary,secondary_table_data,5839,141,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/secondary/secondary_FY2025.parquet
+2026,primary,primary_table_data,21102,30,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/primary/primary_FY2026.parquet
+2026,secondary,secondary_table_data,4219,141,0,/content/drive/MyDrive/raw_poultry_ml/data/interim/secondary/secondary_FY2026.parquet

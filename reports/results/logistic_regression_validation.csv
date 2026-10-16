@@ -1,0 +1,2 @@
+model,threshold,average_precision,roc_auc,precision,recall,f1,balanced_accuracy
+Logistic Regression,0.5,0.12404651028370246,0.5755567341889594,0.109375,0.476,0.17787742899850523,0.5507029534560074

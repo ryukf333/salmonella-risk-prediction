@@ -1,0 +1,93 @@
+column,fiscal_year,result,count
+salmonella_sp_analysis,2022,Negative,29708
+salmonella_sp_analysis,2022,Positive,4902
+salmonella_sp_analysis,2022,<MISSING>,3
+salmonella_sp_analysis,2023,Negative,28381
+salmonella_sp_analysis,2023,Positive,3639
+salmonella_sp_analysis,2023,<MISSING>,15
+salmonella_sp_analysis,2024,Negative,26429
+salmonella_sp_analysis,2024,Positive,2476
+salmonella_sp_analysis,2024,<MISSING>,36
+salmonella_sp_analysis,2025,Negative,25756
+salmonella_sp_analysis,2025,Positive,2798
+salmonella_sp_analysis,2025,<MISSING>,10
+salmonella_sp_analysis,2026,Negative,19053
+salmonella_sp_analysis,2026,Positive,2041
+salmonella_sp_analysis,2026,<MISSING>,8
+salmonella_sp_analysis_canceled,2022,25-12  Lab problem - spilled,1
+salmonella_sp_analysis_canceled,2022,25-20  Other - (Describe on form in up to 54 characters),1
+salmonella_sp_analysis_canceled,2022,25-7  Lab problem - sample inadvertently discarded,1
+salmonella_sp_analysis_canceled,2022,<MISSING>,34610
+salmonella_sp_analysis_canceled,2023,25   Laboratory Problem,1
+salmonella_sp_analysis_canceled,2023,25-18  Lab problem - equipment failure,14
+salmonella_sp_analysis_canceled,2023,<MISSING>,32020
+salmonella_sp_analysis_canceled,2024,25   Laboratory Problem,2
+salmonella_sp_analysis_canceled,2024,25-18  Lab problem - equipment failure,1
+salmonella_sp_analysis_canceled,2024,25-9  Lab problem - sample logged-in/analyzed for wrong project,1
+salmonella_sp_analysis_canceled,2024,26 Lab closed,5
+salmonella_sp_analysis_canceled,2024,<MISSING>,28932
+salmonella_sp_analysis_canceled,2025,25-7  Lab problem - sample inadvertently discarded,1
+salmonella_sp_analysis_canceled,2025,<MISSING>,28563
+salmonella_sp_analysis_canceled,2026,"25-21 Lab problem - Quality Control failure, unable to reanalyze",3
+salmonella_sp_analysis_canceled,2026,26 Lab closed,3
+salmonella_sp_analysis_canceled,2026,<MISSING>,21096
+campylobacter_analysis_1ml,2022,<MISSING>,34613
+campylobacter_analysis_1ml,2023,<MISSING>,32035
+campylobacter_analysis_1ml,2024,<MISSING>,28941
+campylobacter_analysis_1ml,2025,<MISSING>,28564
+campylobacter_analysis_1ml,2026,<MISSING>,21102
+campylobacter_analysis_1ml_canceled,2022,<MISSING>,34613
+campylobacter_analysis_1ml_canceled,2023,<MISSING>,32035
+campylobacter_analysis_1ml_canceled,2024,<MISSING>,28941
+campylobacter_analysis_1ml_canceled,2025,<MISSING>,28564
+campylobacter_analysis_1ml_canceled,2026,<MISSING>,21102
+campylobacter_analysis_30ml,2022,Negative,24504
+campylobacter_analysis_30ml,2022,Positive,4436
+campylobacter_analysis_30ml,2022,<MISSING>,5673
+campylobacter_analysis_30ml,2023,Negative,23624
+campylobacter_analysis_30ml,2023,Positive,5587
+campylobacter_analysis_30ml,2023,<MISSING>,2824
+campylobacter_analysis_30ml,2024,Negative,11664
+campylobacter_analysis_30ml,2024,Positive,2734
+campylobacter_analysis_30ml,2024,<MISSING>,14543
+campylobacter_analysis_30ml,2025,Negative,11845
+campylobacter_analysis_30ml,2025,Positive,3045
+campylobacter_analysis_30ml,2025,<MISSING>,13674
+campylobacter_analysis_30ml,2026,Negative,9224
+campylobacter_analysis_30ml,2026,Positive,2175
+campylobacter_analysis_30ml,2026,<MISSING>,9703
+campylobacter_analysis_30ml_canceled,2022,13  Insufficient tissue or sample,1
+campylobacter_analysis_30ml_canceled,2022,25-12  Lab problem - spilled,1
+campylobacter_analysis_30ml_canceled,2022,25-20  Other - (Describe on form in up to 54 characters),1
+campylobacter_analysis_30ml_canceled,2022,46  Temperature too low,17
+campylobacter_analysis_30ml_canceled,2022,48  Headquarters/PDD/DO/OIA Discard,1
+campylobacter_analysis_30ml_canceled,2022,<MISSING>,34592
+campylobacter_analysis_30ml_canceled,2023,13  Insufficient tissue or sample,30
+campylobacter_analysis_30ml_canceled,2023,25   Laboratory Problem,15
+campylobacter_analysis_30ml_canceled,2023,25-10  Lab problem - sample lost in lab,1
+campylobacter_analysis_30ml_canceled,2023,25-18  Lab problem - equipment failure,7
+campylobacter_analysis_30ml_canceled,2023,25-20  Other - (Describe on form in up to 54 characters),1
+campylobacter_analysis_30ml_canceled,2023,31  Sample Container Leaking,1
+campylobacter_analysis_30ml_canceled,2023,"31-1 Sample Container Leaking, undetermined cause, packing and shipping procedures appear to be followed",2
+campylobacter_analysis_30ml_canceled,2023,46  Temperature too low,29
+campylobacter_analysis_30ml_canceled,2023,<MISSING>,31949
+campylobacter_analysis_30ml_canceled,2024,13  Insufficient tissue or sample,6
+campylobacter_analysis_30ml_canceled,2024,25   Laboratory Problem,1
+campylobacter_analysis_30ml_canceled,2024,25-7  Lab problem - sample inadvertently discarded,5
+campylobacter_analysis_30ml_canceled,2024,31  Sample Container Leaking,3
+campylobacter_analysis_30ml_canceled,2024,"31-1 Sample Container Leaking, undetermined cause, packing and shipping procedures appear to be followed",1
+campylobacter_analysis_30ml_canceled,2024,46  Temperature too low,6
+campylobacter_analysis_30ml_canceled,2024,86 Sample not selected for Campylobacter analysis,12400
+campylobacter_analysis_30ml_canceled,2024,<MISSING>,16519
+campylobacter_analysis_30ml_canceled,2025,13  Insufficient tissue or sample,14
+campylobacter_analysis_30ml_canceled,2025,25-18  Lab problem - equipment failure,14
+campylobacter_analysis_30ml_canceled,2025,25-7  Lab problem - sample inadvertently discarded,2
+campylobacter_analysis_30ml_canceled,2025,46  Temperature too low,2
+campylobacter_analysis_30ml_canceled,2025,86 Sample not selected for Campylobacter analysis,11318
+campylobacter_analysis_30ml_canceled,2025,<MISSING>,17214
+campylobacter_analysis_30ml_canceled,2026,13  Insufficient tissue or sample,3
+campylobacter_analysis_30ml_canceled,2026,"25-21 Lab problem - Quality Control failure, unable to reanalyze",28
+campylobacter_analysis_30ml_canceled,2026,25-7  Lab problem - sample inadvertently discarded,1
+campylobacter_analysis_30ml_canceled,2026,46  Temperature too low,9
+campylobacter_analysis_30ml_canceled,2026,86 Sample not selected for Campylobacter analysis,8267
+campylobacter_analysis_30ml_canceled,2026,<MISSING>,12794

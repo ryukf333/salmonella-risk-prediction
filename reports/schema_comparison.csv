@@ -1,0 +1,11 @@
+fiscal_year,table_type,reference_year,reference_column_count,current_column_count,same_columns,same_column_order,missing_columns_vs_FY2022,additional_columns_vs_FY2022
+2022,primary,2022,30,30,True,True,,
+2023,primary,2022,30,30,True,True,,
+2024,primary,2022,30,30,True,True,,
+2025,primary,2022,30,30,True,True,,
+2026,primary,2022,30,30,True,True,,
+2022,secondary,2022,141,141,True,True,,
+2023,secondary,2022,141,141,True,True,,
+2024,secondary,2022,141,141,True,True,,
+2025,secondary,2022,141,141,True,True,,
+2026,secondary,2022,141,141,True,True,,

@@ -1,0 +1,11 @@
+fiscal_year,table_name,row_count,valid_dictionary_rows,invalid_rows,first_row_column_count,observed_column_count,rows_with_schema_variation
+2022,primary_table_data,34613,34613,0,30,30,0
+2022,secondary_table_data,9331,9331,0,141,141,0
+2023,primary_table_data,32035,32035,0,30,30,0
+2023,secondary_table_data,9218,9218,0,141,141,0
+2024,primary_table_data,28941,28941,0,30,30,0
+2024,secondary_table_data,5206,5206,0,141,141,0
+2025,primary_table_data,28564,28564,0,30,30,0
+2025,secondary_table_data,5839,5839,0,141,141,0
+2026,primary_table_data,21102,21102,0,30,30,0
+2026,secondary_table_data,4219,4219,0,141,141,0

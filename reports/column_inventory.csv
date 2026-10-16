@@ -1,0 +1,856 @@
+fiscal_year,table_name,column_position,column_name,sample_value_types,type_sample_size
+2022,primary_table_data,1,form_id,string: 1000,1000
+2022,primary_table_data,2,sample_number,integer: 1000,1000
+2022,primary_table_data,3,establishment_id,integer: 1000,1000
+2022,primary_table_data,4,establishment_number,string: 1000,1000
+2022,primary_table_data,5,establishment_name,string: 1000,1000
+2022,primary_table_data,6,establishment_state,string: 1000,1000
+2022,primary_table_data,7,project_code,string: 1000,1000
+2022,primary_table_data,8,project_name,string: 1000,1000
+2022,primary_table_data,9,collection_date,string: 1000,1000
+2022,primary_table_data,10,sample_source_name,string: 1000,1000
+2022,primary_table_data,11,product_type,string: 1000,1000
+2022,primary_table_data,12,not_analyzed,string: 1000,1000
+2022,primary_table_data,13,not_analyzed_explain,string: 1000,1000
+2022,primary_table_data,14,salmonella_sp_analysis,string: 1000,1000
+2022,primary_table_data,15,salmonella_sp_analysis_canceled,string: 1000,1000
+2022,primary_table_data,16,salmonellae_mpn_g,string: 1000,1000
+2022,primary_table_data,17,salmonellae_mpn_g_canceled,string: 1000,1000
+2022,primary_table_data,18,salmonellae_mpn_combination,string: 1000,1000
+2022,primary_table_data,19,salmonella_quantitative_cfu_g,string: 1000,1000
+2022,primary_table_data,20,salmonella_quantitative_cfu_ml,string: 1000,1000
+2022,primary_table_data,21,salmonella_mpn_qualitative,string: 1000,1000
+2022,primary_table_data,22,campylobacter_analysis_1ml,string: 1000,1000
+2022,primary_table_data,23,campylobacter_analysis_1ml_canceled,string: 1000,1000
+2022,primary_table_data,24,campylobacter_analysis_30ml,string: 1000,1000
+2022,primary_table_data,25,campylobacter_analysis_30ml_canceled,string: 1000,1000
+2022,primary_table_data,26,aerobic_plate_count_mpn_ml,string: 1000,1000
+2022,primary_table_data,27,enterobacteriaceae_mpn_ml,string: 1000,1000
+2022,primary_table_data,28,aerobic_plate_count_mpn_100_sq_cm,string: 1000,1000
+2022,primary_table_data,29,enterobacteriaceae_mpn_100_sq_cm,string: 1000,1000
+2022,primary_table_data,30,aerobic_plate_count_mpn_g,string: 1000,1000
+2022,secondary_table_data,1,form_id,string: 1000,1000
+2022,secondary_table_data,2,secondary_sample_number,float: 1000,1000
+2022,secondary_table_data,3,tertiary_sample_number,float: 1000,1000
+2022,secondary_table_data,4,pathogen_number,string: 1000,1000
+2022,secondary_table_data,5,fsis_number,string: 1000,1000
+2022,secondary_table_data,6,salmonella_allele_code_version,string: 1000,1000
+2022,secondary_table_data,7,salmonella_allele_code,string: 1000,1000
+2022,secondary_table_data,8,salmonella_allele_code_date,string: 1000,1000
+2022,secondary_table_data,9,salmonella_sra_accession_number,string: 1000,1000
+2022,secondary_table_data,10,salmonella_bio_sample_accession_number,string: 1000,1000
+2022,secondary_table_data,11,salmonella_bio_project_number,string: 1000,1000
+2022,secondary_table_data,12,salmonella_multi_locus_sequence,string: 1000,1000
+2022,secondary_table_data,13,salmonella_resistance_genotype,string: 1000,1000
+2022,secondary_table_data,14,salmonella_stress_genotype,string: 1000,1000
+2022,secondary_table_data,15,salmonella_virulence_genotype,string: 1000,1000
+2022,secondary_table_data,16,salmonella_serotype,string: 1000,1000
+2022,secondary_table_data,17,salmonella_primary_pfge_pattern,string: 1000,1000
+2022,secondary_table_data,18,salmonella_secondary_pfge_pattern,string: 1000,1000
+2022,secondary_table_data,19,salmonella_ampicillin_operator,string: 1000,1000
+2022,secondary_table_data,20,salmonella_ampicillin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,21,salmonella_ampicillin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,22,salmonella_amoxicillin_clavulanic_acid_operator,string: 1000,1000
+2022,secondary_table_data,23,salmonella_amoxicillin_clavulanic_acid_mic,float: 367; string: 633,1000
+2022,secondary_table_data,24,salmonella_amoxicillin_clavulanic_acid_resistant_ast,string: 1000,1000
+2022,secondary_table_data,25,salmonella_ceftriaxone_operator,string: 1000,1000
+2022,secondary_table_data,26,salmonella_ceftriaxone_mic,float: 367; string: 633,1000
+2022,secondary_table_data,27,salmonella_ceftriaxone_resistant_ast,string: 1000,1000
+2022,secondary_table_data,28,salmonella_azithromycin_operator,string: 1000,1000
+2022,secondary_table_data,29,salmonella_azithromycin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,30,salmonella_azithromycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,31,salmonella_chloramphenicol_operator,string: 1000,1000
+2022,secondary_table_data,32,salmonella_chloramphenicol_mic,float: 367; string: 633,1000
+2022,secondary_table_data,33,salmonella_chloramphenicol_resistant_ast,string: 1000,1000
+2022,secondary_table_data,34,salmonella_ciprofloxacin_operator,string: 1000,1000
+2022,secondary_table_data,35,salmonella_ciprofloxacin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,36,salmonella_ciprofloxacin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,37,salmonella_colistin_operator,string: 1000,1000
+2022,secondary_table_data,38,salmonella_colistin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,39,salmonella_colistin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,40,salmonella_trimethoprim_sulfamethoxazole_operator,string: 1000,1000
+2022,secondary_table_data,41,salmonella_trimethoprim_sulfamethoxazole_mic,float: 367; string: 633,1000
+2022,secondary_table_data,42,salmonella_trimethoprim_sulfamethoxazole_resistant_ast,string: 1000,1000
+2022,secondary_table_data,43,salmonella_cefoxitin_operator,string: 1000,1000
+2022,secondary_table_data,44,salmonella_cefoxitin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,45,salmonella_cefoxitin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,46,salmonella_gentamicin_operator,string: 1000,1000
+2022,secondary_table_data,47,salmonella_gentamicin_mic,float: 367; string: 633,1000
+2022,secondary_table_data,48,salmonella_gentamicin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,49,salmonella_kanamycin_operator,string: 1000,1000
+2022,secondary_table_data,50,salmonella_kanamycin_mic,string: 1000,1000
+2022,secondary_table_data,51,salmonella_kanamycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,52,salmonella_meropenem_operator,string: 1000,1000
+2022,secondary_table_data,53,salmonella_meropenem_mic,float: 367; string: 633,1000
+2022,secondary_table_data,54,salmonella_meropenem_resistant_ast,string: 1000,1000
+2022,secondary_table_data,55,salmonella_nalidixic_acid_operator,string: 1000,1000
+2022,secondary_table_data,56,salmonella_nalidixic_acid_mic,float: 367; string: 633,1000
+2022,secondary_table_data,57,salmonella_nalidixic_acid_resistant_ast,string: 1000,1000
+2022,secondary_table_data,58,salmonella_sulfisoxazole_operator,string: 1000,1000
+2022,secondary_table_data,59,salmonella_sulfisoxazole_mic,float: 367; string: 633,1000
+2022,secondary_table_data,60,salmonella_sulfisoxazole_resistant_ast,string: 1000,1000
+2022,secondary_table_data,61,salmonella_streptomycin_operator,string: 1000,1000
+2022,secondary_table_data,62,salmonella_streptomycin_mic,string: 1000,1000
+2022,secondary_table_data,63,salmonella_streptomycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,64,salmonella_tetracycline_operator,string: 1000,1000
+2022,secondary_table_data,65,salmonella_tetracycline_mic,float: 367; string: 633,1000
+2022,secondary_table_data,66,salmonella_tetracycline_resistant_ast,string: 1000,1000
+2022,secondary_table_data,67,salmonella_ceftiofur_operator,string: 1000,1000
+2022,secondary_table_data,68,salmonella_ceftiofur_mic,string: 1000,1000
+2022,secondary_table_data,69,salmonella_ceftiofur_resistant_ast,string: 1000,1000
+2022,secondary_table_data,70,salmonella_ampicillin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,71,salmonella_amoxicillin_clavulanic_acid_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,72,salmonella_ceftriaxone_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,73,salmonella_azithromycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,74,salmonella_chloramphenicol_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,75,salmonella_ciprofloxacin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,76,salmonella_colistin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,77,salmonella_trimethoprim_sulfamethoxazole_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,78,salmonella_cefoxitin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,79,salmonella_gentamicin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,80,salmonella_kanamycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,81,salmonella_meropenem_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,82,salmonella_nalidixic_acid_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,83,salmonella_sulfisoxazole_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,84,salmonella_streptomycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,85,salmonella_tetracycline_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,86,salmonella_ceftiofur_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,87,campylobacter_allele_code_version,string: 1000,1000
+2022,secondary_table_data,88,campylobacter_allele_code,string: 1000,1000
+2022,secondary_table_data,89,campylobacter_allele_code_date,string: 1000,1000
+2022,secondary_table_data,90,campylobacter_sra_accession_number,string: 1000,1000
+2022,secondary_table_data,91,campylobacter_bio_sample_accession_number,string: 1000,1000
+2022,secondary_table_data,92,campylobacter_bio_project_number,string: 1000,1000
+2022,secondary_table_data,93,campylobacter_multi_locus_sequence,string: 1000,1000
+2022,secondary_table_data,94,campylobacter_resistance_genotype,string: 1000,1000
+2022,secondary_table_data,95,campylobacter_stress_genotype,string: 1000,1000
+2022,secondary_table_data,96,campylobacter_virulence_genotype,string: 1000,1000
+2022,secondary_table_data,97,campylobacter_jejuni,string: 1000,1000
+2022,secondary_table_data,98,campylobacter_coli,string: 1000,1000
+2022,secondary_table_data,99,campylobacter_lari,string: 1000,1000
+2022,secondary_table_data,100,campylobacter_primary_pfge_pattern,string: 1000,1000
+2022,secondary_table_data,101,campylobacter_secondary_pfge_pattern,string: 1000,1000
+2022,secondary_table_data,102,campylobacter_azithromycin_operator,string: 1000,1000
+2022,secondary_table_data,103,campylobacter_azithromycin_mic,float: 633; string: 367,1000
+2022,secondary_table_data,104,campylobacter_azithromycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,105,campylobacter_ciprofloxacin_operator,string: 1000,1000
+2022,secondary_table_data,106,campylobacter_ciprofloxacin_mic,float: 633; string: 367,1000
+2022,secondary_table_data,107,campylobacter_ciprofloxacin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,108,campylobacter_clindamycin_operator,string: 1000,1000
+2022,secondary_table_data,109,campylobacter_clindamycin_mic,float: 633; string: 367,1000
+2022,secondary_table_data,110,campylobacter_clindamycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,111,campylobacter_erythromycin_operator,string: 1000,1000
+2022,secondary_table_data,112,campylobacter_erythromycin_mic,float: 633; string: 367,1000
+2022,secondary_table_data,113,campylobacter_erythromycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,114,campylobacter_florfenicol_operator,string: 1000,1000
+2022,secondary_table_data,115,campylobacter_florfenicol_mic,float: 633; string: 367,1000
+2022,secondary_table_data,116,campylobacter_florfenicol_resistant_ast,string: 1000,1000
+2022,secondary_table_data,117,campylobacter_gentamicin_operator,string: 1000,1000
+2022,secondary_table_data,118,campylobacter_gentamicin_mic,float: 633; string: 367,1000
+2022,secondary_table_data,119,campylobacter_gentamicin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,120,campylobacter_meropenem_operator,string: 1000,1000
+2022,secondary_table_data,121,campylobacter_meropenem_mic,float: 633; string: 367,1000
+2022,secondary_table_data,122,campylobacter_meropenem_resistant_ast,string: 1000,1000
+2022,secondary_table_data,123,campylobacter_nalidixic_acid_operator,string: 1000,1000
+2022,secondary_table_data,124,campylobacter_nalidixic_acid_mic,float: 633; string: 367,1000
+2022,secondary_table_data,125,campylobacter_nalidixic_acid_resistant_ast,string: 1000,1000
+2022,secondary_table_data,126,campylobacter_telithromycin_operator,string: 1000,1000
+2022,secondary_table_data,127,campylobacter_telithromycin_mic,string: 1000,1000
+2022,secondary_table_data,128,campylobacter_telithromycin_resistant_ast,string: 1000,1000
+2022,secondary_table_data,129,campylobacter_tetracycline_operator,string: 1000,1000
+2022,secondary_table_data,130,campylobacter_tetracycline_mic,float: 633; string: 367,1000
+2022,secondary_table_data,131,campylobacter_tetracycline_resistant_ast,string: 1000,1000
+2022,secondary_table_data,132,campylobacter_azithromycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,133,campylobacter_ciprofloxacin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,134,campylobacter_clindamycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,135,campylobacter_erythromycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,136,campylobacter_florfenicol_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,137,campylobacter_gentamicin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,138,campylobacter_meropenem_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,139,campylobacter_nalidixic_acid_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,140,campylobacter_telithromycin_resistant_wgs,string: 1000,1000
+2022,secondary_table_data,141,campylobacter_tetracycline_resistant_wgs,string: 1000,1000
+2023,primary_table_data,1,form_id,string: 1000,1000
+2023,primary_table_data,2,sample_number,integer: 1000,1000
+2023,primary_table_data,3,establishment_id,integer: 1000,1000
+2023,primary_table_data,4,establishment_number,string: 1000,1000
+2023,primary_table_data,5,establishment_name,string: 1000,1000
+2023,primary_table_data,6,establishment_state,string: 1000,1000
+2023,primary_table_data,7,project_code,string: 1000,1000
+2023,primary_table_data,8,project_name,string: 1000,1000
+2023,primary_table_data,9,collection_date,string: 1000,1000
+2023,primary_table_data,10,sample_source_name,string: 1000,1000
+2023,primary_table_data,11,product_type,string: 1000,1000
+2023,primary_table_data,12,not_analyzed,string: 1000,1000
+2023,primary_table_data,13,not_analyzed_explain,string: 1000,1000
+2023,primary_table_data,14,salmonella_sp_analysis,string: 1000,1000
+2023,primary_table_data,15,salmonella_sp_analysis_canceled,string: 1000,1000
+2023,primary_table_data,16,salmonellae_mpn_g,string: 1000,1000
+2023,primary_table_data,17,salmonellae_mpn_g_canceled,string: 1000,1000
+2023,primary_table_data,18,salmonellae_mpn_combination,string: 1000,1000
+2023,primary_table_data,19,salmonella_quantitative_cfu_g,string: 1000,1000
+2023,primary_table_data,20,salmonella_quantitative_cfu_ml,string: 1000,1000
+2023,primary_table_data,21,salmonella_mpn_qualitative,string: 1000,1000
+2023,primary_table_data,22,campylobacter_analysis_1ml,string: 1000,1000
+2023,primary_table_data,23,campylobacter_analysis_1ml_canceled,string: 1000,1000
+2023,primary_table_data,24,campylobacter_analysis_30ml,string: 1000,1000
+2023,primary_table_data,25,campylobacter_analysis_30ml_canceled,string: 1000,1000
+2023,primary_table_data,26,aerobic_plate_count_mpn_ml,string: 1000,1000
+2023,primary_table_data,27,enterobacteriaceae_mpn_ml,string: 1000,1000
+2023,primary_table_data,28,aerobic_plate_count_mpn_100_sq_cm,string: 1000,1000
+2023,primary_table_data,29,enterobacteriaceae_mpn_100_sq_cm,string: 1000,1000
+2023,primary_table_data,30,aerobic_plate_count_mpn_g,string: 1000,1000
+2023,secondary_table_data,1,form_id,string: 1000,1000
+2023,secondary_table_data,2,secondary_sample_number,float: 1000,1000
+2023,secondary_table_data,3,tertiary_sample_number,float: 1000,1000
+2023,secondary_table_data,4,pathogen_number,string: 1000,1000
+2023,secondary_table_data,5,fsis_number,string: 1000,1000
+2023,secondary_table_data,6,salmonella_allele_code_version,string: 1000,1000
+2023,secondary_table_data,7,salmonella_allele_code,string: 1000,1000
+2023,secondary_table_data,8,salmonella_allele_code_date,string: 1000,1000
+2023,secondary_table_data,9,salmonella_sra_accession_number,string: 1000,1000
+2023,secondary_table_data,10,salmonella_bio_sample_accession_number,string: 1000,1000
+2023,secondary_table_data,11,salmonella_bio_project_number,string: 1000,1000
+2023,secondary_table_data,12,salmonella_multi_locus_sequence,string: 1000,1000
+2023,secondary_table_data,13,salmonella_resistance_genotype,string: 1000,1000
+2023,secondary_table_data,14,salmonella_stress_genotype,string: 1000,1000
+2023,secondary_table_data,15,salmonella_virulence_genotype,string: 1000,1000
+2023,secondary_table_data,16,salmonella_serotype,string: 1000,1000
+2023,secondary_table_data,17,salmonella_primary_pfge_pattern,string: 1000,1000
+2023,secondary_table_data,18,salmonella_secondary_pfge_pattern,string: 1000,1000
+2023,secondary_table_data,19,salmonella_ampicillin_operator,string: 1000,1000
+2023,secondary_table_data,20,salmonella_ampicillin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,21,salmonella_ampicillin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,22,salmonella_amoxicillin_clavulanic_acid_operator,string: 1000,1000
+2023,secondary_table_data,23,salmonella_amoxicillin_clavulanic_acid_mic,float: 183; string: 817,1000
+2023,secondary_table_data,24,salmonella_amoxicillin_clavulanic_acid_resistant_ast,string: 1000,1000
+2023,secondary_table_data,25,salmonella_ceftriaxone_operator,string: 1000,1000
+2023,secondary_table_data,26,salmonella_ceftriaxone_mic,float: 183; string: 817,1000
+2023,secondary_table_data,27,salmonella_ceftriaxone_resistant_ast,string: 1000,1000
+2023,secondary_table_data,28,salmonella_azithromycin_operator,string: 1000,1000
+2023,secondary_table_data,29,salmonella_azithromycin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,30,salmonella_azithromycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,31,salmonella_chloramphenicol_operator,string: 1000,1000
+2023,secondary_table_data,32,salmonella_chloramphenicol_mic,float: 183; string: 817,1000
+2023,secondary_table_data,33,salmonella_chloramphenicol_resistant_ast,string: 1000,1000
+2023,secondary_table_data,34,salmonella_ciprofloxacin_operator,string: 1000,1000
+2023,secondary_table_data,35,salmonella_ciprofloxacin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,36,salmonella_ciprofloxacin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,37,salmonella_colistin_operator,string: 1000,1000
+2023,secondary_table_data,38,salmonella_colistin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,39,salmonella_colistin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,40,salmonella_trimethoprim_sulfamethoxazole_operator,string: 1000,1000
+2023,secondary_table_data,41,salmonella_trimethoprim_sulfamethoxazole_mic,float: 183; string: 817,1000
+2023,secondary_table_data,42,salmonella_trimethoprim_sulfamethoxazole_resistant_ast,string: 1000,1000
+2023,secondary_table_data,43,salmonella_cefoxitin_operator,string: 1000,1000
+2023,secondary_table_data,44,salmonella_cefoxitin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,45,salmonella_cefoxitin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,46,salmonella_gentamicin_operator,string: 1000,1000
+2023,secondary_table_data,47,salmonella_gentamicin_mic,float: 183; string: 817,1000
+2023,secondary_table_data,48,salmonella_gentamicin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,49,salmonella_kanamycin_operator,string: 1000,1000
+2023,secondary_table_data,50,salmonella_kanamycin_mic,string: 1000,1000
+2023,secondary_table_data,51,salmonella_kanamycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,52,salmonella_meropenem_operator,string: 1000,1000
+2023,secondary_table_data,53,salmonella_meropenem_mic,float: 183; string: 817,1000
+2023,secondary_table_data,54,salmonella_meropenem_resistant_ast,string: 1000,1000
+2023,secondary_table_data,55,salmonella_nalidixic_acid_operator,string: 1000,1000
+2023,secondary_table_data,56,salmonella_nalidixic_acid_mic,float: 183; string: 817,1000
+2023,secondary_table_data,57,salmonella_nalidixic_acid_resistant_ast,string: 1000,1000
+2023,secondary_table_data,58,salmonella_sulfisoxazole_operator,string: 1000,1000
+2023,secondary_table_data,59,salmonella_sulfisoxazole_mic,float: 183; string: 817,1000
+2023,secondary_table_data,60,salmonella_sulfisoxazole_resistant_ast,string: 1000,1000
+2023,secondary_table_data,61,salmonella_streptomycin_operator,string: 1000,1000
+2023,secondary_table_data,62,salmonella_streptomycin_mic,string: 1000,1000
+2023,secondary_table_data,63,salmonella_streptomycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,64,salmonella_tetracycline_operator,string: 1000,1000
+2023,secondary_table_data,65,salmonella_tetracycline_mic,float: 183; string: 817,1000
+2023,secondary_table_data,66,salmonella_tetracycline_resistant_ast,string: 1000,1000
+2023,secondary_table_data,67,salmonella_ceftiofur_operator,string: 1000,1000
+2023,secondary_table_data,68,salmonella_ceftiofur_mic,string: 1000,1000
+2023,secondary_table_data,69,salmonella_ceftiofur_resistant_ast,string: 1000,1000
+2023,secondary_table_data,70,salmonella_ampicillin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,71,salmonella_amoxicillin_clavulanic_acid_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,72,salmonella_ceftriaxone_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,73,salmonella_azithromycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,74,salmonella_chloramphenicol_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,75,salmonella_ciprofloxacin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,76,salmonella_colistin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,77,salmonella_trimethoprim_sulfamethoxazole_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,78,salmonella_cefoxitin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,79,salmonella_gentamicin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,80,salmonella_kanamycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,81,salmonella_meropenem_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,82,salmonella_nalidixic_acid_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,83,salmonella_sulfisoxazole_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,84,salmonella_streptomycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,85,salmonella_tetracycline_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,86,salmonella_ceftiofur_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,87,campylobacter_allele_code_version,string: 1000,1000
+2023,secondary_table_data,88,campylobacter_allele_code,string: 1000,1000
+2023,secondary_table_data,89,campylobacter_allele_code_date,string: 1000,1000
+2023,secondary_table_data,90,campylobacter_sra_accession_number,string: 1000,1000
+2023,secondary_table_data,91,campylobacter_bio_sample_accession_number,string: 1000,1000
+2023,secondary_table_data,92,campylobacter_bio_project_number,string: 1000,1000
+2023,secondary_table_data,93,campylobacter_multi_locus_sequence,string: 1000,1000
+2023,secondary_table_data,94,campylobacter_resistance_genotype,string: 1000,1000
+2023,secondary_table_data,95,campylobacter_stress_genotype,string: 1000,1000
+2023,secondary_table_data,96,campylobacter_virulence_genotype,string: 1000,1000
+2023,secondary_table_data,97,campylobacter_jejuni,string: 1000,1000
+2023,secondary_table_data,98,campylobacter_coli,string: 1000,1000
+2023,secondary_table_data,99,campylobacter_lari,string: 1000,1000
+2023,secondary_table_data,100,campylobacter_primary_pfge_pattern,string: 1000,1000
+2023,secondary_table_data,101,campylobacter_secondary_pfge_pattern,string: 1000,1000
+2023,secondary_table_data,102,campylobacter_azithromycin_operator,string: 1000,1000
+2023,secondary_table_data,103,campylobacter_azithromycin_mic,float: 373; string: 627,1000
+2023,secondary_table_data,104,campylobacter_azithromycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,105,campylobacter_ciprofloxacin_operator,string: 1000,1000
+2023,secondary_table_data,106,campylobacter_ciprofloxacin_mic,float: 373; string: 627,1000
+2023,secondary_table_data,107,campylobacter_ciprofloxacin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,108,campylobacter_clindamycin_operator,string: 1000,1000
+2023,secondary_table_data,109,campylobacter_clindamycin_mic,float: 373; string: 627,1000
+2023,secondary_table_data,110,campylobacter_clindamycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,111,campylobacter_erythromycin_operator,string: 1000,1000
+2023,secondary_table_data,112,campylobacter_erythromycin_mic,float: 373; string: 627,1000
+2023,secondary_table_data,113,campylobacter_erythromycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,114,campylobacter_florfenicol_operator,string: 1000,1000
+2023,secondary_table_data,115,campylobacter_florfenicol_mic,float: 373; string: 627,1000
+2023,secondary_table_data,116,campylobacter_florfenicol_resistant_ast,string: 1000,1000
+2023,secondary_table_data,117,campylobacter_gentamicin_operator,string: 1000,1000
+2023,secondary_table_data,118,campylobacter_gentamicin_mic,float: 373; string: 627,1000
+2023,secondary_table_data,119,campylobacter_gentamicin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,120,campylobacter_meropenem_operator,string: 1000,1000
+2023,secondary_table_data,121,campylobacter_meropenem_mic,float: 373; string: 627,1000
+2023,secondary_table_data,122,campylobacter_meropenem_resistant_ast,string: 1000,1000
+2023,secondary_table_data,123,campylobacter_nalidixic_acid_operator,string: 1000,1000
+2023,secondary_table_data,124,campylobacter_nalidixic_acid_mic,float: 373; string: 627,1000
+2023,secondary_table_data,125,campylobacter_nalidixic_acid_resistant_ast,string: 1000,1000
+2023,secondary_table_data,126,campylobacter_telithromycin_operator,string: 1000,1000
+2023,secondary_table_data,127,campylobacter_telithromycin_mic,string: 1000,1000
+2023,secondary_table_data,128,campylobacter_telithromycin_resistant_ast,string: 1000,1000
+2023,secondary_table_data,129,campylobacter_tetracycline_operator,string: 1000,1000
+2023,secondary_table_data,130,campylobacter_tetracycline_mic,float: 373; string: 627,1000
+2023,secondary_table_data,131,campylobacter_tetracycline_resistant_ast,string: 1000,1000
+2023,secondary_table_data,132,campylobacter_azithromycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,133,campylobacter_ciprofloxacin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,134,campylobacter_clindamycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,135,campylobacter_erythromycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,136,campylobacter_florfenicol_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,137,campylobacter_gentamicin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,138,campylobacter_meropenem_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,139,campylobacter_nalidixic_acid_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,140,campylobacter_telithromycin_resistant_wgs,string: 1000,1000
+2023,secondary_table_data,141,campylobacter_tetracycline_resistant_wgs,string: 1000,1000
+2024,primary_table_data,1,form_id,string: 1000,1000
+2024,primary_table_data,2,sample_number,integer: 1000,1000
+2024,primary_table_data,3,establishment_id,integer: 1000,1000
+2024,primary_table_data,4,establishment_number,string: 1000,1000
+2024,primary_table_data,5,establishment_name,string: 1000,1000
+2024,primary_table_data,6,establishment_state,string: 1000,1000
+2024,primary_table_data,7,project_code,string: 1000,1000
+2024,primary_table_data,8,project_name,string: 1000,1000
+2024,primary_table_data,9,collection_date,string: 1000,1000
+2024,primary_table_data,10,sample_source_name,string: 1000,1000
+2024,primary_table_data,11,product_type,string: 1000,1000
+2024,primary_table_data,12,not_analyzed,string: 1000,1000
+2024,primary_table_data,13,not_analyzed_explain,string: 1000,1000
+2024,primary_table_data,14,salmonella_sp_analysis,string: 1000,1000
+2024,primary_table_data,15,salmonella_sp_analysis_canceled,string: 1000,1000
+2024,primary_table_data,16,salmonellae_mpn_g,string: 1000,1000
+2024,primary_table_data,17,salmonellae_mpn_g_canceled,string: 1000,1000
+2024,primary_table_data,18,salmonellae_mpn_combination,string: 1000,1000
+2024,primary_table_data,19,salmonella_quantitative_cfu_g,string: 1000,1000
+2024,primary_table_data,20,salmonella_quantitative_cfu_ml,string: 1000,1000
+2024,primary_table_data,21,salmonella_mpn_qualitative,string: 1000,1000
+2024,primary_table_data,22,campylobacter_analysis_1ml,string: 1000,1000
+2024,primary_table_data,23,campylobacter_analysis_1ml_canceled,string: 1000,1000
+2024,primary_table_data,24,campylobacter_analysis_30ml,string: 1000,1000
+2024,primary_table_data,25,campylobacter_analysis_30ml_canceled,string: 1000,1000
+2024,primary_table_data,26,aerobic_plate_count_mpn_ml,string: 1000,1000
+2024,primary_table_data,27,enterobacteriaceae_mpn_ml,string: 1000,1000
+2024,primary_table_data,28,aerobic_plate_count_mpn_100_sq_cm,string: 1000,1000
+2024,primary_table_data,29,enterobacteriaceae_mpn_100_sq_cm,string: 1000,1000
+2024,primary_table_data,30,aerobic_plate_count_mpn_g,string: 1000,1000
+2024,secondary_table_data,1,form_id,string: 1000,1000
+2024,secondary_table_data,2,secondary_sample_number,float: 1000,1000
+2024,secondary_table_data,3,tertiary_sample_number,float: 998; string: 2,1000
+2024,secondary_table_data,4,pathogen_number,string: 1000,1000
+2024,secondary_table_data,5,fsis_number,string: 1000,1000
+2024,secondary_table_data,6,salmonella_allele_code_version,string: 1000,1000
+2024,secondary_table_data,7,salmonella_allele_code,string: 1000,1000
+2024,secondary_table_data,8,salmonella_allele_code_date,string: 1000,1000
+2024,secondary_table_data,9,salmonella_sra_accession_number,string: 1000,1000
+2024,secondary_table_data,10,salmonella_bio_sample_accession_number,string: 1000,1000
+2024,secondary_table_data,11,salmonella_bio_project_number,string: 1000,1000
+2024,secondary_table_data,12,salmonella_multi_locus_sequence,string: 1000,1000
+2024,secondary_table_data,13,salmonella_resistance_genotype,string: 1000,1000
+2024,secondary_table_data,14,salmonella_stress_genotype,string: 1000,1000
+2024,secondary_table_data,15,salmonella_virulence_genotype,string: 1000,1000
+2024,secondary_table_data,16,salmonella_serotype,string: 1000,1000
+2024,secondary_table_data,17,salmonella_primary_pfge_pattern,string: 1000,1000
+2024,secondary_table_data,18,salmonella_secondary_pfge_pattern,string: 1000,1000
+2024,secondary_table_data,19,salmonella_ampicillin_operator,string: 1000,1000
+2024,secondary_table_data,20,salmonella_ampicillin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,21,salmonella_ampicillin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,22,salmonella_amoxicillin_clavulanic_acid_operator,string: 1000,1000
+2024,secondary_table_data,23,salmonella_amoxicillin_clavulanic_acid_mic,float: 59; string: 941,1000
+2024,secondary_table_data,24,salmonella_amoxicillin_clavulanic_acid_resistant_ast,string: 1000,1000
+2024,secondary_table_data,25,salmonella_ceftriaxone_operator,string: 1000,1000
+2024,secondary_table_data,26,salmonella_ceftriaxone_mic,float: 59; string: 941,1000
+2024,secondary_table_data,27,salmonella_ceftriaxone_resistant_ast,string: 1000,1000
+2024,secondary_table_data,28,salmonella_azithromycin_operator,string: 1000,1000
+2024,secondary_table_data,29,salmonella_azithromycin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,30,salmonella_azithromycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,31,salmonella_chloramphenicol_operator,string: 1000,1000
+2024,secondary_table_data,32,salmonella_chloramphenicol_mic,float: 59; string: 941,1000
+2024,secondary_table_data,33,salmonella_chloramphenicol_resistant_ast,string: 1000,1000
+2024,secondary_table_data,34,salmonella_ciprofloxacin_operator,string: 1000,1000
+2024,secondary_table_data,35,salmonella_ciprofloxacin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,36,salmonella_ciprofloxacin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,37,salmonella_colistin_operator,string: 1000,1000
+2024,secondary_table_data,38,salmonella_colistin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,39,salmonella_colistin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,40,salmonella_trimethoprim_sulfamethoxazole_operator,string: 1000,1000
+2024,secondary_table_data,41,salmonella_trimethoprim_sulfamethoxazole_mic,float: 59; string: 941,1000
+2024,secondary_table_data,42,salmonella_trimethoprim_sulfamethoxazole_resistant_ast,string: 1000,1000
+2024,secondary_table_data,43,salmonella_cefoxitin_operator,string: 1000,1000
+2024,secondary_table_data,44,salmonella_cefoxitin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,45,salmonella_cefoxitin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,46,salmonella_gentamicin_operator,string: 1000,1000
+2024,secondary_table_data,47,salmonella_gentamicin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,48,salmonella_gentamicin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,49,salmonella_kanamycin_operator,string: 1000,1000
+2024,secondary_table_data,50,salmonella_kanamycin_mic,string: 1000,1000
+2024,secondary_table_data,51,salmonella_kanamycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,52,salmonella_meropenem_operator,string: 1000,1000
+2024,secondary_table_data,53,salmonella_meropenem_mic,float: 59; string: 941,1000
+2024,secondary_table_data,54,salmonella_meropenem_resistant_ast,string: 1000,1000
+2024,secondary_table_data,55,salmonella_nalidixic_acid_operator,string: 1000,1000
+2024,secondary_table_data,56,salmonella_nalidixic_acid_mic,float: 59; string: 941,1000
+2024,secondary_table_data,57,salmonella_nalidixic_acid_resistant_ast,string: 1000,1000
+2024,secondary_table_data,58,salmonella_sulfisoxazole_operator,string: 1000,1000
+2024,secondary_table_data,59,salmonella_sulfisoxazole_mic,float: 59; string: 941,1000
+2024,secondary_table_data,60,salmonella_sulfisoxazole_resistant_ast,string: 1000,1000
+2024,secondary_table_data,61,salmonella_streptomycin_operator,string: 1000,1000
+2024,secondary_table_data,62,salmonella_streptomycin_mic,string: 1000,1000
+2024,secondary_table_data,63,salmonella_streptomycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,64,salmonella_tetracycline_operator,string: 1000,1000
+2024,secondary_table_data,65,salmonella_tetracycline_mic,float: 59; string: 941,1000
+2024,secondary_table_data,66,salmonella_tetracycline_resistant_ast,string: 1000,1000
+2024,secondary_table_data,67,salmonella_ceftiofur_operator,string: 1000,1000
+2024,secondary_table_data,68,salmonella_ceftiofur_mic,string: 1000,1000
+2024,secondary_table_data,69,salmonella_ceftiofur_resistant_ast,string: 1000,1000
+2024,secondary_table_data,70,salmonella_ampicillin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,71,salmonella_amoxicillin_clavulanic_acid_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,72,salmonella_ceftriaxone_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,73,salmonella_azithromycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,74,salmonella_chloramphenicol_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,75,salmonella_ciprofloxacin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,76,salmonella_colistin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,77,salmonella_trimethoprim_sulfamethoxazole_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,78,salmonella_cefoxitin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,79,salmonella_gentamicin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,80,salmonella_kanamycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,81,salmonella_meropenem_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,82,salmonella_nalidixic_acid_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,83,salmonella_sulfisoxazole_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,84,salmonella_streptomycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,85,salmonella_tetracycline_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,86,salmonella_ceftiofur_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,87,campylobacter_allele_code_version,string: 1000,1000
+2024,secondary_table_data,88,campylobacter_allele_code,string: 1000,1000
+2024,secondary_table_data,89,campylobacter_allele_code_date,string: 1000,1000
+2024,secondary_table_data,90,campylobacter_sra_accession_number,string: 1000,1000
+2024,secondary_table_data,91,campylobacter_bio_sample_accession_number,string: 1000,1000
+2024,secondary_table_data,92,campylobacter_bio_project_number,string: 1000,1000
+2024,secondary_table_data,93,campylobacter_multi_locus_sequence,string: 1000,1000
+2024,secondary_table_data,94,campylobacter_resistance_genotype,string: 1000,1000
+2024,secondary_table_data,95,campylobacter_stress_genotype,string: 1000,1000
+2024,secondary_table_data,96,campylobacter_virulence_genotype,string: 1000,1000
+2024,secondary_table_data,97,campylobacter_jejuni,string: 1000,1000
+2024,secondary_table_data,98,campylobacter_coli,string: 1000,1000
+2024,secondary_table_data,99,campylobacter_lari,string: 1000,1000
+2024,secondary_table_data,100,campylobacter_primary_pfge_pattern,string: 1000,1000
+2024,secondary_table_data,101,campylobacter_secondary_pfge_pattern,string: 1000,1000
+2024,secondary_table_data,102,campylobacter_azithromycin_operator,string: 1000,1000
+2024,secondary_table_data,103,campylobacter_azithromycin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,104,campylobacter_azithromycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,105,campylobacter_ciprofloxacin_operator,string: 1000,1000
+2024,secondary_table_data,106,campylobacter_ciprofloxacin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,107,campylobacter_ciprofloxacin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,108,campylobacter_clindamycin_operator,string: 1000,1000
+2024,secondary_table_data,109,campylobacter_clindamycin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,110,campylobacter_clindamycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,111,campylobacter_erythromycin_operator,string: 1000,1000
+2024,secondary_table_data,112,campylobacter_erythromycin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,113,campylobacter_erythromycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,114,campylobacter_florfenicol_operator,string: 1000,1000
+2024,secondary_table_data,115,campylobacter_florfenicol_mic,float: 59; string: 941,1000
+2024,secondary_table_data,116,campylobacter_florfenicol_resistant_ast,string: 1000,1000
+2024,secondary_table_data,117,campylobacter_gentamicin_operator,string: 1000,1000
+2024,secondary_table_data,118,campylobacter_gentamicin_mic,float: 59; string: 941,1000
+2024,secondary_table_data,119,campylobacter_gentamicin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,120,campylobacter_meropenem_operator,string: 1000,1000
+2024,secondary_table_data,121,campylobacter_meropenem_mic,float: 59; string: 941,1000
+2024,secondary_table_data,122,campylobacter_meropenem_resistant_ast,string: 1000,1000
+2024,secondary_table_data,123,campylobacter_nalidixic_acid_operator,string: 1000,1000
+2024,secondary_table_data,124,campylobacter_nalidixic_acid_mic,float: 59; string: 941,1000
+2024,secondary_table_data,125,campylobacter_nalidixic_acid_resistant_ast,string: 1000,1000
+2024,secondary_table_data,126,campylobacter_telithromycin_operator,string: 1000,1000
+2024,secondary_table_data,127,campylobacter_telithromycin_mic,string: 1000,1000
+2024,secondary_table_data,128,campylobacter_telithromycin_resistant_ast,string: 1000,1000
+2024,secondary_table_data,129,campylobacter_tetracycline_operator,string: 1000,1000
+2024,secondary_table_data,130,campylobacter_tetracycline_mic,float: 59; string: 941,1000
+2024,secondary_table_data,131,campylobacter_tetracycline_resistant_ast,string: 1000,1000
+2024,secondary_table_data,132,campylobacter_azithromycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,133,campylobacter_ciprofloxacin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,134,campylobacter_clindamycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,135,campylobacter_erythromycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,136,campylobacter_florfenicol_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,137,campylobacter_gentamicin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,138,campylobacter_meropenem_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,139,campylobacter_nalidixic_acid_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,140,campylobacter_telithromycin_resistant_wgs,string: 1000,1000
+2024,secondary_table_data,141,campylobacter_tetracycline_resistant_wgs,string: 1000,1000
+2025,primary_table_data,1,form_id,string: 1000,1000
+2025,primary_table_data,2,sample_number,integer: 1000,1000
+2025,primary_table_data,3,establishment_id,integer: 1000,1000
+2025,primary_table_data,4,establishment_number,string: 1000,1000
+2025,primary_table_data,5,establishment_name,string: 1000,1000
+2025,primary_table_data,6,establishment_state,string: 1000,1000
+2025,primary_table_data,7,project_code,string: 1000,1000
+2025,primary_table_data,8,project_name,string: 1000,1000
+2025,primary_table_data,9,collection_date,string: 1000,1000
+2025,primary_table_data,10,sample_source_name,string: 1000,1000
+2025,primary_table_data,11,product_type,string: 1000,1000
+2025,primary_table_data,12,not_analyzed,string: 1000,1000
+2025,primary_table_data,13,not_analyzed_explain,string: 1000,1000
+2025,primary_table_data,14,salmonella_sp_analysis,string: 1000,1000
+2025,primary_table_data,15,salmonella_sp_analysis_canceled,string: 1000,1000
+2025,primary_table_data,16,salmonellae_mpn_g,string: 1000,1000
+2025,primary_table_data,17,salmonellae_mpn_g_canceled,string: 1000,1000
+2025,primary_table_data,18,salmonellae_mpn_combination,string: 1000,1000
+2025,primary_table_data,19,salmonella_quantitative_cfu_g,string: 1000,1000
+2025,primary_table_data,20,salmonella_quantitative_cfu_ml,string: 1000,1000
+2025,primary_table_data,21,salmonella_mpn_qualitative,string: 1000,1000
+2025,primary_table_data,22,campylobacter_analysis_1ml,string: 1000,1000
+2025,primary_table_data,23,campylobacter_analysis_1ml_canceled,string: 1000,1000
+2025,primary_table_data,24,campylobacter_analysis_30ml,string: 1000,1000
+2025,primary_table_data,25,campylobacter_analysis_30ml_canceled,string: 1000,1000
+2025,primary_table_data,26,aerobic_plate_count_mpn_ml,string: 1000,1000
+2025,primary_table_data,27,enterobacteriaceae_mpn_ml,string: 1000,1000
+2025,primary_table_data,28,aerobic_plate_count_mpn_100_sq_cm,string: 1000,1000
+2025,primary_table_data,29,enterobacteriaceae_mpn_100_sq_cm,string: 1000,1000
+2025,primary_table_data,30,aerobic_plate_count_mpn_g,string: 1000,1000
+2025,secondary_table_data,1,form_id,string: 1000,1000
+2025,secondary_table_data,2,secondary_sample_number,float: 1000,1000
+2025,secondary_table_data,3,tertiary_sample_number,float: 999; string: 1,1000
+2025,secondary_table_data,4,pathogen_number,string: 1000,1000
+2025,secondary_table_data,5,fsis_number,string: 1000,1000
+2025,secondary_table_data,6,salmonella_allele_code_version,string: 1000,1000
+2025,secondary_table_data,7,salmonella_allele_code,string: 1000,1000
+2025,secondary_table_data,8,salmonella_allele_code_date,string: 1000,1000
+2025,secondary_table_data,9,salmonella_sra_accession_number,string: 1000,1000
+2025,secondary_table_data,10,salmonella_bio_sample_accession_number,string: 1000,1000
+2025,secondary_table_data,11,salmonella_bio_project_number,string: 1000,1000
+2025,secondary_table_data,12,salmonella_multi_locus_sequence,string: 1000,1000
+2025,secondary_table_data,13,salmonella_resistance_genotype,string: 1000,1000
+2025,secondary_table_data,14,salmonella_stress_genotype,string: 1000,1000
+2025,secondary_table_data,15,salmonella_virulence_genotype,string: 1000,1000
+2025,secondary_table_data,16,salmonella_serotype,string: 1000,1000
+2025,secondary_table_data,17,salmonella_primary_pfge_pattern,string: 1000,1000
+2025,secondary_table_data,18,salmonella_secondary_pfge_pattern,string: 1000,1000
+2025,secondary_table_data,19,salmonella_ampicillin_operator,string: 1000,1000
+2025,secondary_table_data,20,salmonella_ampicillin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,21,salmonella_ampicillin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,22,salmonella_amoxicillin_clavulanic_acid_operator,string: 1000,1000
+2025,secondary_table_data,23,salmonella_amoxicillin_clavulanic_acid_mic,float: 76; string: 924,1000
+2025,secondary_table_data,24,salmonella_amoxicillin_clavulanic_acid_resistant_ast,string: 1000,1000
+2025,secondary_table_data,25,salmonella_ceftriaxone_operator,string: 1000,1000
+2025,secondary_table_data,26,salmonella_ceftriaxone_mic,float: 76; string: 924,1000
+2025,secondary_table_data,27,salmonella_ceftriaxone_resistant_ast,string: 1000,1000
+2025,secondary_table_data,28,salmonella_azithromycin_operator,string: 1000,1000
+2025,secondary_table_data,29,salmonella_azithromycin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,30,salmonella_azithromycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,31,salmonella_chloramphenicol_operator,string: 1000,1000
+2025,secondary_table_data,32,salmonella_chloramphenicol_mic,float: 76; string: 924,1000
+2025,secondary_table_data,33,salmonella_chloramphenicol_resistant_ast,string: 1000,1000
+2025,secondary_table_data,34,salmonella_ciprofloxacin_operator,string: 1000,1000
+2025,secondary_table_data,35,salmonella_ciprofloxacin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,36,salmonella_ciprofloxacin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,37,salmonella_colistin_operator,string: 1000,1000
+2025,secondary_table_data,38,salmonella_colistin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,39,salmonella_colistin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,40,salmonella_trimethoprim_sulfamethoxazole_operator,string: 1000,1000
+2025,secondary_table_data,41,salmonella_trimethoprim_sulfamethoxazole_mic,float: 76; string: 924,1000
+2025,secondary_table_data,42,salmonella_trimethoprim_sulfamethoxazole_resistant_ast,string: 1000,1000
+2025,secondary_table_data,43,salmonella_cefoxitin_operator,string: 1000,1000
+2025,secondary_table_data,44,salmonella_cefoxitin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,45,salmonella_cefoxitin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,46,salmonella_gentamicin_operator,string: 1000,1000
+2025,secondary_table_data,47,salmonella_gentamicin_mic,float: 76; string: 924,1000
+2025,secondary_table_data,48,salmonella_gentamicin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,49,salmonella_kanamycin_operator,string: 1000,1000
+2025,secondary_table_data,50,salmonella_kanamycin_mic,string: 1000,1000
+2025,secondary_table_data,51,salmonella_kanamycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,52,salmonella_meropenem_operator,string: 1000,1000
+2025,secondary_table_data,53,salmonella_meropenem_mic,float: 76; string: 924,1000
+2025,secondary_table_data,54,salmonella_meropenem_resistant_ast,string: 1000,1000
+2025,secondary_table_data,55,salmonella_nalidixic_acid_operator,string: 1000,1000
+2025,secondary_table_data,56,salmonella_nalidixic_acid_mic,float: 76; string: 924,1000
+2025,secondary_table_data,57,salmonella_nalidixic_acid_resistant_ast,string: 1000,1000
+2025,secondary_table_data,58,salmonella_sulfisoxazole_operator,string: 1000,1000
+2025,secondary_table_data,59,salmonella_sulfisoxazole_mic,float: 76; string: 924,1000
+2025,secondary_table_data,60,salmonella_sulfisoxazole_resistant_ast,string: 1000,1000
+2025,secondary_table_data,61,salmonella_streptomycin_operator,string: 1000,1000
+2025,secondary_table_data,62,salmonella_streptomycin_mic,string: 1000,1000
+2025,secondary_table_data,63,salmonella_streptomycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,64,salmonella_tetracycline_operator,string: 1000,1000
+2025,secondary_table_data,65,salmonella_tetracycline_mic,float: 76; string: 924,1000
+2025,secondary_table_data,66,salmonella_tetracycline_resistant_ast,string: 1000,1000
+2025,secondary_table_data,67,salmonella_ceftiofur_operator,string: 1000,1000
+2025,secondary_table_data,68,salmonella_ceftiofur_mic,string: 1000,1000
+2025,secondary_table_data,69,salmonella_ceftiofur_resistant_ast,string: 1000,1000
+2025,secondary_table_data,70,salmonella_ampicillin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,71,salmonella_amoxicillin_clavulanic_acid_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,72,salmonella_ceftriaxone_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,73,salmonella_azithromycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,74,salmonella_chloramphenicol_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,75,salmonella_ciprofloxacin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,76,salmonella_colistin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,77,salmonella_trimethoprim_sulfamethoxazole_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,78,salmonella_cefoxitin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,79,salmonella_gentamicin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,80,salmonella_kanamycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,81,salmonella_meropenem_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,82,salmonella_nalidixic_acid_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,83,salmonella_sulfisoxazole_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,84,salmonella_streptomycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,85,salmonella_tetracycline_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,86,salmonella_ceftiofur_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,87,campylobacter_allele_code_version,string: 1000,1000
+2025,secondary_table_data,88,campylobacter_allele_code,string: 1000,1000
+2025,secondary_table_data,89,campylobacter_allele_code_date,string: 1000,1000
+2025,secondary_table_data,90,campylobacter_sra_accession_number,string: 1000,1000
+2025,secondary_table_data,91,campylobacter_bio_sample_accession_number,string: 1000,1000
+2025,secondary_table_data,92,campylobacter_bio_project_number,string: 1000,1000
+2025,secondary_table_data,93,campylobacter_multi_locus_sequence,string: 1000,1000
+2025,secondary_table_data,94,campylobacter_resistance_genotype,string: 1000,1000
+2025,secondary_table_data,95,campylobacter_stress_genotype,string: 1000,1000
+2025,secondary_table_data,96,campylobacter_virulence_genotype,string: 1000,1000
+2025,secondary_table_data,97,campylobacter_jejuni,string: 1000,1000
+2025,secondary_table_data,98,campylobacter_coli,string: 1000,1000
+2025,secondary_table_data,99,campylobacter_lari,string: 1000,1000
+2025,secondary_table_data,100,campylobacter_primary_pfge_pattern,string: 1000,1000
+2025,secondary_table_data,101,campylobacter_secondary_pfge_pattern,string: 1000,1000
+2025,secondary_table_data,102,campylobacter_azithromycin_operator,string: 1000,1000
+2025,secondary_table_data,103,campylobacter_azithromycin_mic,float: 79; string: 921,1000
+2025,secondary_table_data,104,campylobacter_azithromycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,105,campylobacter_ciprofloxacin_operator,string: 1000,1000
+2025,secondary_table_data,106,campylobacter_ciprofloxacin_mic,float: 79; string: 921,1000
+2025,secondary_table_data,107,campylobacter_ciprofloxacin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,108,campylobacter_clindamycin_operator,string: 1000,1000
+2025,secondary_table_data,109,campylobacter_clindamycin_mic,float: 79; string: 921,1000
+2025,secondary_table_data,110,campylobacter_clindamycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,111,campylobacter_erythromycin_operator,string: 1000,1000
+2025,secondary_table_data,112,campylobacter_erythromycin_mic,float: 79; string: 921,1000
+2025,secondary_table_data,113,campylobacter_erythromycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,114,campylobacter_florfenicol_operator,string: 1000,1000
+2025,secondary_table_data,115,campylobacter_florfenicol_mic,float: 79; string: 921,1000
+2025,secondary_table_data,116,campylobacter_florfenicol_resistant_ast,string: 1000,1000
+2025,secondary_table_data,117,campylobacter_gentamicin_operator,string: 1000,1000
+2025,secondary_table_data,118,campylobacter_gentamicin_mic,float: 79; string: 921,1000
+2025,secondary_table_data,119,campylobacter_gentamicin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,120,campylobacter_meropenem_operator,string: 1000,1000
+2025,secondary_table_data,121,campylobacter_meropenem_mic,float: 79; string: 921,1000
+2025,secondary_table_data,122,campylobacter_meropenem_resistant_ast,string: 1000,1000
+2025,secondary_table_data,123,campylobacter_nalidixic_acid_operator,string: 1000,1000
+2025,secondary_table_data,124,campylobacter_nalidixic_acid_mic,float: 79; string: 921,1000
+2025,secondary_table_data,125,campylobacter_nalidixic_acid_resistant_ast,string: 1000,1000
+2025,secondary_table_data,126,campylobacter_telithromycin_operator,string: 1000,1000
+2025,secondary_table_data,127,campylobacter_telithromycin_mic,string: 1000,1000
+2025,secondary_table_data,128,campylobacter_telithromycin_resistant_ast,string: 1000,1000
+2025,secondary_table_data,129,campylobacter_tetracycline_operator,string: 1000,1000
+2025,secondary_table_data,130,campylobacter_tetracycline_mic,float: 79; string: 921,1000
+2025,secondary_table_data,131,campylobacter_tetracycline_resistant_ast,string: 1000,1000
+2025,secondary_table_data,132,campylobacter_azithromycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,133,campylobacter_ciprofloxacin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,134,campylobacter_clindamycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,135,campylobacter_erythromycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,136,campylobacter_florfenicol_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,137,campylobacter_gentamicin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,138,campylobacter_meropenem_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,139,campylobacter_nalidixic_acid_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,140,campylobacter_telithromycin_resistant_wgs,string: 1000,1000
+2025,secondary_table_data,141,campylobacter_tetracycline_resistant_wgs,string: 1000,1000
+2026,primary_table_data,1,form_id,string: 1000,1000
+2026,primary_table_data,2,sample_number,integer: 1000,1000
+2026,primary_table_data,3,establishment_id,integer: 1000,1000
+2026,primary_table_data,4,establishment_number,string: 1000,1000
+2026,primary_table_data,5,establishment_name,string: 1000,1000
+2026,primary_table_data,6,establishment_state,string: 1000,1000
+2026,primary_table_data,7,project_code,string: 1000,1000
+2026,primary_table_data,8,project_name,string: 1000,1000
+2026,primary_table_data,9,collection_date,string: 1000,1000
+2026,primary_table_data,10,sample_source_name,string: 1000,1000
+2026,primary_table_data,11,product_type,string: 1000,1000
+2026,primary_table_data,12,not_analyzed,string: 1000,1000
+2026,primary_table_data,13,not_analyzed_explain,string: 1000,1000
+2026,primary_table_data,14,salmonella_sp_analysis,string: 1000,1000
+2026,primary_table_data,15,salmonella_sp_analysis_canceled,string: 1000,1000
+2026,primary_table_data,16,salmonellae_mpn_g,string: 1000,1000
+2026,primary_table_data,17,salmonellae_mpn_g_canceled,string: 1000,1000
+2026,primary_table_data,18,salmonellae_mpn_combination,string: 1000,1000
+2026,primary_table_data,19,salmonella_quantitative_cfu_g,string: 1000,1000
+2026,primary_table_data,20,salmonella_quantitative_cfu_ml,string: 1000,1000
+2026,primary_table_data,21,salmonella_mpn_qualitative,string: 1000,1000
+2026,primary_table_data,22,campylobacter_analysis_1ml,string: 1000,1000
+2026,primary_table_data,23,campylobacter_analysis_1ml_canceled,string: 1000,1000
+2026,primary_table_data,24,campylobacter_analysis_30ml,string: 1000,1000
+2026,primary_table_data,25,campylobacter_analysis_30ml_canceled,string: 1000,1000
+2026,primary_table_data,26,aerobic_plate_count_mpn_ml,string: 1000,1000
+2026,primary_table_data,27,enterobacteriaceae_mpn_ml,string: 1000,1000
+2026,primary_table_data,28,aerobic_plate_count_mpn_100_sq_cm,string: 1000,1000
+2026,primary_table_data,29,enterobacteriaceae_mpn_100_sq_cm,string: 1000,1000
+2026,primary_table_data,30,aerobic_plate_count_mpn_g,string: 1000,1000
+2026,secondary_table_data,1,form_id,string: 1000,1000
+2026,secondary_table_data,2,secondary_sample_number,float: 1000,1000
+2026,secondary_table_data,3,tertiary_sample_number,float: 1000,1000
+2026,secondary_table_data,4,pathogen_number,string: 1000,1000
+2026,secondary_table_data,5,fsis_number,string: 1000,1000
+2026,secondary_table_data,6,salmonella_allele_code_version,string: 1000,1000
+2026,secondary_table_data,7,salmonella_allele_code,string: 1000,1000
+2026,secondary_table_data,8,salmonella_allele_code_date,string: 1000,1000
+2026,secondary_table_data,9,salmonella_sra_accession_number,string: 1000,1000
+2026,secondary_table_data,10,salmonella_bio_sample_accession_number,string: 1000,1000
+2026,secondary_table_data,11,salmonella_bio_project_number,string: 1000,1000
+2026,secondary_table_data,12,salmonella_multi_locus_sequence,string: 1000,1000
+2026,secondary_table_data,13,salmonella_resistance_genotype,string: 1000,1000
+2026,secondary_table_data,14,salmonella_stress_genotype,string: 1000,1000
+2026,secondary_table_data,15,salmonella_virulence_genotype,string: 1000,1000
+2026,secondary_table_data,16,salmonella_serotype,string: 1000,1000
+2026,secondary_table_data,17,salmonella_primary_pfge_pattern,string: 1000,1000
+2026,secondary_table_data,18,salmonella_secondary_pfge_pattern,string: 1000,1000
+2026,secondary_table_data,19,salmonella_ampicillin_operator,string: 1000,1000
+2026,secondary_table_data,20,salmonella_ampicillin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,21,salmonella_ampicillin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,22,salmonella_amoxicillin_clavulanic_acid_operator,string: 1000,1000
+2026,secondary_table_data,23,salmonella_amoxicillin_clavulanic_acid_mic,float: 24; string: 976,1000
+2026,secondary_table_data,24,salmonella_amoxicillin_clavulanic_acid_resistant_ast,string: 1000,1000
+2026,secondary_table_data,25,salmonella_ceftriaxone_operator,string: 1000,1000
+2026,secondary_table_data,26,salmonella_ceftriaxone_mic,float: 24; string: 976,1000
+2026,secondary_table_data,27,salmonella_ceftriaxone_resistant_ast,string: 1000,1000
+2026,secondary_table_data,28,salmonella_azithromycin_operator,string: 1000,1000
+2026,secondary_table_data,29,salmonella_azithromycin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,30,salmonella_azithromycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,31,salmonella_chloramphenicol_operator,string: 1000,1000
+2026,secondary_table_data,32,salmonella_chloramphenicol_mic,float: 24; string: 976,1000
+2026,secondary_table_data,33,salmonella_chloramphenicol_resistant_ast,string: 1000,1000
+2026,secondary_table_data,34,salmonella_ciprofloxacin_operator,string: 1000,1000
+2026,secondary_table_data,35,salmonella_ciprofloxacin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,36,salmonella_ciprofloxacin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,37,salmonella_colistin_operator,string: 1000,1000
+2026,secondary_table_data,38,salmonella_colistin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,39,salmonella_colistin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,40,salmonella_trimethoprim_sulfamethoxazole_operator,string: 1000,1000
+2026,secondary_table_data,41,salmonella_trimethoprim_sulfamethoxazole_mic,float: 24; string: 976,1000
+2026,secondary_table_data,42,salmonella_trimethoprim_sulfamethoxazole_resistant_ast,string: 1000,1000
+2026,secondary_table_data,43,salmonella_cefoxitin_operator,string: 1000,1000
+2026,secondary_table_data,44,salmonella_cefoxitin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,45,salmonella_cefoxitin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,46,salmonella_gentamicin_operator,string: 1000,1000
+2026,secondary_table_data,47,salmonella_gentamicin_mic,float: 24; string: 976,1000
+2026,secondary_table_data,48,salmonella_gentamicin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,49,salmonella_kanamycin_operator,string: 1000,1000
+2026,secondary_table_data,50,salmonella_kanamycin_mic,string: 1000,1000
+2026,secondary_table_data,51,salmonella_kanamycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,52,salmonella_meropenem_operator,string: 1000,1000
+2026,secondary_table_data,53,salmonella_meropenem_mic,float: 24; string: 976,1000
+2026,secondary_table_data,54,salmonella_meropenem_resistant_ast,string: 1000,1000
+2026,secondary_table_data,55,salmonella_nalidixic_acid_operator,string: 1000,1000
+2026,secondary_table_data,56,salmonella_nalidixic_acid_mic,float: 24; string: 976,1000
+2026,secondary_table_data,57,salmonella_nalidixic_acid_resistant_ast,string: 1000,1000
+2026,secondary_table_data,58,salmonella_sulfisoxazole_operator,string: 1000,1000
+2026,secondary_table_data,59,salmonella_sulfisoxazole_mic,float: 24; string: 976,1000
+2026,secondary_table_data,60,salmonella_sulfisoxazole_resistant_ast,string: 1000,1000
+2026,secondary_table_data,61,salmonella_streptomycin_operator,string: 1000,1000
+2026,secondary_table_data,62,salmonella_streptomycin_mic,string: 1000,1000
+2026,secondary_table_data,63,salmonella_streptomycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,64,salmonella_tetracycline_operator,string: 1000,1000
+2026,secondary_table_data,65,salmonella_tetracycline_mic,float: 24; string: 976,1000
+2026,secondary_table_data,66,salmonella_tetracycline_resistant_ast,string: 1000,1000
+2026,secondary_table_data,67,salmonella_ceftiofur_operator,string: 1000,1000
+2026,secondary_table_data,68,salmonella_ceftiofur_mic,string: 1000,1000
+2026,secondary_table_data,69,salmonella_ceftiofur_resistant_ast,string: 1000,1000
+2026,secondary_table_data,70,salmonella_ampicillin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,71,salmonella_amoxicillin_clavulanic_acid_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,72,salmonella_ceftriaxone_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,73,salmonella_azithromycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,74,salmonella_chloramphenicol_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,75,salmonella_ciprofloxacin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,76,salmonella_colistin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,77,salmonella_trimethoprim_sulfamethoxazole_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,78,salmonella_cefoxitin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,79,salmonella_gentamicin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,80,salmonella_kanamycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,81,salmonella_meropenem_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,82,salmonella_nalidixic_acid_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,83,salmonella_sulfisoxazole_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,84,salmonella_streptomycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,85,salmonella_tetracycline_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,86,salmonella_ceftiofur_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,87,campylobacter_allele_code_version,string: 1000,1000
+2026,secondary_table_data,88,campylobacter_allele_code,string: 1000,1000
+2026,secondary_table_data,89,campylobacter_allele_code_date,string: 1000,1000
+2026,secondary_table_data,90,campylobacter_sra_accession_number,string: 1000,1000
+2026,secondary_table_data,91,campylobacter_bio_sample_accession_number,string: 1000,1000
+2026,secondary_table_data,92,campylobacter_bio_project_number,string: 1000,1000
+2026,secondary_table_data,93,campylobacter_multi_locus_sequence,string: 1000,1000
+2026,secondary_table_data,94,campylobacter_resistance_genotype,string: 1000,1000
+2026,secondary_table_data,95,campylobacter_stress_genotype,string: 1000,1000
+2026,secondary_table_data,96,campylobacter_virulence_genotype,string: 1000,1000
+2026,secondary_table_data,97,campylobacter_jejuni,string: 1000,1000
+2026,secondary_table_data,98,campylobacter_coli,string: 1000,1000
+2026,secondary_table_data,99,campylobacter_lari,string: 1000,1000
+2026,secondary_table_data,100,campylobacter_primary_pfge_pattern,string: 1000,1000
+2026,secondary_table_data,101,campylobacter_secondary_pfge_pattern,string: 1000,1000
+2026,secondary_table_data,102,campylobacter_azithromycin_operator,string: 1000,1000
+2026,secondary_table_data,103,campylobacter_azithromycin_mic,string: 1000,1000
+2026,secondary_table_data,104,campylobacter_azithromycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,105,campylobacter_ciprofloxacin_operator,string: 1000,1000
+2026,secondary_table_data,106,campylobacter_ciprofloxacin_mic,string: 1000,1000
+2026,secondary_table_data,107,campylobacter_ciprofloxacin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,108,campylobacter_clindamycin_operator,string: 1000,1000
+2026,secondary_table_data,109,campylobacter_clindamycin_mic,string: 1000,1000
+2026,secondary_table_data,110,campylobacter_clindamycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,111,campylobacter_erythromycin_operator,string: 1000,1000
+2026,secondary_table_data,112,campylobacter_erythromycin_mic,string: 1000,1000
+2026,secondary_table_data,113,campylobacter_erythromycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,114,campylobacter_florfenicol_operator,string: 1000,1000
+2026,secondary_table_data,115,campylobacter_florfenicol_mic,string: 1000,1000
+2026,secondary_table_data,116,campylobacter_florfenicol_resistant_ast,string: 1000,1000
+2026,secondary_table_data,117,campylobacter_gentamicin_operator,string: 1000,1000
+2026,secondary_table_data,118,campylobacter_gentamicin_mic,string: 1000,1000
+2026,secondary_table_data,119,campylobacter_gentamicin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,120,campylobacter_meropenem_operator,string: 1000,1000
+2026,secondary_table_data,121,campylobacter_meropenem_mic,string: 1000,1000
+2026,secondary_table_data,122,campylobacter_meropenem_resistant_ast,string: 1000,1000
+2026,secondary_table_data,123,campylobacter_nalidixic_acid_operator,string: 1000,1000
+2026,secondary_table_data,124,campylobacter_nalidixic_acid_mic,string: 1000,1000
+2026,secondary_table_data,125,campylobacter_nalidixic_acid_resistant_ast,string: 1000,1000
+2026,secondary_table_data,126,campylobacter_telithromycin_operator,string: 1000,1000
+2026,secondary_table_data,127,campylobacter_telithromycin_mic,string: 1000,1000
+2026,secondary_table_data,128,campylobacter_telithromycin_resistant_ast,string: 1000,1000
+2026,secondary_table_data,129,campylobacter_tetracycline_operator,string: 1000,1000
+2026,secondary_table_data,130,campylobacter_tetracycline_mic,string: 1000,1000
+2026,secondary_table_data,131,campylobacter_tetracycline_resistant_ast,string: 1000,1000
+2026,secondary_table_data,132,campylobacter_azithromycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,133,campylobacter_ciprofloxacin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,134,campylobacter_clindamycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,135,campylobacter_erythromycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,136,campylobacter_florfenicol_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,137,campylobacter_gentamicin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,138,campylobacter_meropenem_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,139,campylobacter_nalidixic_acid_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,140,campylobacter_telithromycin_resistant_wgs,string: 1000,1000
+2026,secondary_table_data,141,campylobacter_tetracycline_resistant_wgs,string: 1000,1000

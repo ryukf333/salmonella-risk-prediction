@@ -1,0 +1,11 @@
+table,fiscal_year,rows,exact_duplicate_rows
+primary,2022,34613,0
+primary,2023,32035,0
+primary,2024,28941,0
+primary,2025,28564,0
+primary,2026,21102,0
+secondary,2022,9331,0
+secondary,2023,9218,0
+secondary,2024,5206,0
+secondary,2025,5839,0
+secondary,2026,4219,0

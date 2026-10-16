@@ -1,0 +1,5 @@
+experiment,average_precision,roc_auc
+History + without project_code,0.15851938877056654,0.6218844595639399
+History + all four features,0.15484120928329678,0.6264696458945416
+Baseline: all four features,0.12404651028370246,0.5755567341889594
+Baseline: without project_code,0.11687773555741426,0.564177331065409
