@@ -1,23 +1,4 @@
-"""Create leakage-controlled historical establishment features.
 
-The script adds two features to the existing sample-level modeling dataset:
-
-* ``prior_sample_count``: number of eligible samples from the same
-  establishment in earlier fiscal years present in the supplied dataset.
-* ``prior_positive_rate``: positive outcomes divided by eligible samples from
-  the same establishment in those earlier fiscal years.
-
-Important: history is aggregated at the establishment-year level and the
-current fiscal year's outcomes are excluded. This is appropriate for a
-fiscal-year-ahead evaluation, but it does not guarantee that those historical
-results would have been available in real time. For operational prediction,
-use actual result-availability timestamps where possible.
-
-Example:
-    python src/feature_engineering.py \
-        --input data/processed/salmonella_chicken_parts_v1.parquet \
-        --output data/processed/salmonella_chicken_parts_history_v1.parquet
-"""
 
 from __future__ import annotations
 
@@ -38,20 +19,7 @@ HISTORY_COLUMNS = ["prior_sample_count", "prior_positive_rate"]
 
 
 def add_historical_establishment_features(df: pd.DataFrame) -> pd.DataFrame:
-    """Return a copy of ``df`` with prior-fiscal-year establishment features.
-
-    For each establishment in a given fiscal year, history is calculated from
-    that establishment's records in strictly earlier fiscal years represented
-    in the input. The function never uses same-year outcomes to construct the
-    historical features.
-
-    Missing historical positivity rate is retained as NaN when an
-    establishment has no earlier records. It is not changed to zero.
-
-    Raises:
-        ValueError: If required columns are missing, identifiers are missing,
-            fiscal years are invalid, or target labels are not binary.
-    """
+    
     if not isinstance(df, pd.DataFrame):
         raise TypeError("df must be a pandas DataFrame")
 
